@@ -1,0 +1,17 @@
+package HackerRank;
+import java.util.Scanner;
+
+public class Java_Loops_I {
+	private static Scanner scanner;
+
+public static void main(String[] args) {
+		scanner = new Scanner(System.in);
+		int N = scanner.nextInt();
+
+		for (int i = 1; i <= 10; i++) {
+			if (N < 20) {
+				System.out.println(+N + " x " + i + " = " + N * +i);
+			}
+		}
+	}
+}
